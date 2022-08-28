@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 500px;
+    padding: 40px;
+    background: hsla(205, 46%, 30%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+}
+
+.card h1, h6 {
+    color: white;
+}
+label {
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;  
+}
+a :hover {
+    text-decoration: cyan; 
+    text-decoration: none;
+}
